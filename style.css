@@ -1,8 +1,22 @@
 .rect {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: yellow;
     margin-bottom: 20px;
+		}
+.rect_1 {
+    width: calc(100% - 100px);
+    height: 150px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-right: auto;
+		}
+.rect_2 {
+    width: calc(100% - 100px);
+    height: 150px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-left: auto;
 		}
 
 .text_size {
