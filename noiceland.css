@@ -1,0 +1,165 @@
+.markup {
+	border-color: red;
+	border-style: solid;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 120px;
+	height: 90px;
+	align-items: center;
+	
+	border-bottom-color: #e6e6e6;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.header-menu {
+	display: flex;
+	flex-direction: row;
+}
+
+.inline-container {
+  display: inline-flex;
+  gap: 8px;
+  background: #eee;
+  padding: 5px;
+}
+
+.nav-menu {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.nav-menu a {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.nav-menu a:nth-child(2) {
+  margin: 0px 40px;
+}
+
+.container_1 {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    height: 472.5px;
+    padding: 0px 0px 0px 0px;
+    margin: 60px 120px 35.5px;
+}
+
+.card_0 {
+    display: flex;
+	flex-direction: column;
+	justify-content: start;
+    width: 480px;
+    height: 342px
+    padding: 50px 1px 1px 1px;
+}
+
+.container_2 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    height: 993px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 110px 65px;
+}
+
+.hr-line {
+    border: none;
+    height: 5px;
+    background-color: #e6e6e6;
+    margin: 0px 120px;
+}
+
+.card_1 {
+    display: flex;
+	flex-direction: column;
+	justify-content: start;
+    width: 427px;
+    height: 200px
+    background-color: #f0f0f0;
+    padding:25.5px 10px 0px;
+    margin: 0px 0px 0px;
+}
+
+.container_1 img {
+    width: 721px
+    height: 474px
+}
+
+.card_1 img {
+  margin-bottom: 25px;
+}
+
+.card_1 span {
+  margin-bottom: 18px;
+}
+
+.container_2 .text-head {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+@font-face {
+  font-family: 'top';
+  src: url('../font\Libre Franklin\LibreFranklin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'head';
+  src: url('../font\Libre Franklin\TenorSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'parag';
+  src: url('../font\Source Serif Pro\SourceSerifPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bottom';
+  src: url('..font\Libre Franklin\LibreFranklin.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-top {
+  font-family: 'top', serif;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: regular;
+  margin-bottom: 18px
+}
+
+.text-head {
+  font-family: 'head', serif;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: regular;
+  margin-bottom: 27px
+}
+
+.text-parag {
+  font-family: 'parag', serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: regular;
+  margin-bottom: 28px
+}
+
+.text-bottom {
+  font-family: 'bottom', serif;
+  font-weight: 700;
+  font-size: 10px;
+  font-style: bold;
+}
