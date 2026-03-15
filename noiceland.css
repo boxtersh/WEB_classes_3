@@ -1,8 +1,11 @@
-.markup {
+.markup_boundaries {
 	border-color: red;
 	border-style: solid;
 }
 
+.f {
+    fill: red;
+}
 .header {
 	display: flex;
 	flex-direction: row;
@@ -52,7 +55,7 @@
     margin: 60px 120px 35.5px;
 }
 
-.card_0 {
+.card_1 {
     display: flex;
 	flex-direction: column;
 	justify-content: start;
@@ -71,31 +74,86 @@
     margin: 0px 110px 65px;
 }
 
-.hr-line {
-    border: none;
-    height: 5px;
-    background-color: #e6e6e6;
-    margin: 0px 120px;
-}
-
-.card_1 {
+.card_2 {
     display: flex;
 	flex-direction: column;
 	justify-content: start;
     width: 427px;
     height: 200px
-    background-color: #f0f0f0;
     padding:25.5px 10px 0px;
     margin: 0px 0px 0px;
 }
 
-.container_1 img {
-    width: 721px
-    height: 474px
+.container_3 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    height: 993px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 110px 90px;
 }
 
+.card_3 {
+    display: flex;
+	flex-direction: column;
+	justify-content: start;
+    width: 320.25px;
+    height: 150px
+    padding:25.5px 10px 0px;
+    margin: 0px 0px 0px;
+}
+
+.container_4 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    height: 1120px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 110px 90px;
+}
+
+.card_4 {
+    display: flex;
+	flex-direction: column;
+	justify-content: start;
+    width: 640.5px;
+    height: 300px
+    padding:25.5px 10px 0px;
+    margin: 0px 0px 0px;
+}
+
+.container_5 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: black;
+	justify-content: left;
+    color: white;
+    height: 300px;
+    padding: 90px 120px;
+    margin: 0px 0px;
+}
+
+.card_50 {
+    display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: flex-end;
+}
+
+
+.hr-line {
+    border: none;
+    height: 2px;
+    background-color: #e6e6e6;
+    margin: 0px 110px 90px;
+}
 .card_1 img {
-  margin-bottom: 25px;
+    width: 721px
+    height: 474px
+    margin-bottom: 25px;
 }
 
 .card_1 span {
@@ -162,4 +220,40 @@
   font-weight: 700;
   font-size: 10px;
   font-style: bold;
+}
+.text-bottom_2 {
+  font-family: 'bottom', serif;
+  font-weight: 400;
+  font-size: 10px;
+  font-style: regular;
+  margin: 0px 120px;
+}
+
+footer .text-bottom_2 {
+    margin: 0px;
+}
+
+.card_3 text-top {
+    font-size: 10px;
+}
+
+.text-head_2 {
+  font-family: 'head', serif;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: regular;
+  margin-bottom: 27px
+}
+.buttom {
+    border-color: black;
+    background: none;
+    border-radius: 0px;
+    font-size: 10px;
+    width: 205px;
+    height: 54px;
+    margin: 90px 0px 0px 0px;
+}
+.resize {
+    width: 135px;
+    height: 17px;
 }
