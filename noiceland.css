@@ -126,12 +126,11 @@
 
 .container_5 {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: column;
 	background: black;
 	justify-content: left;
     color: white;
-    height: 300px;
+    height: 580px;
     padding: 90px 120px;
     margin: 0px 0px;
 }
@@ -141,15 +140,46 @@
 	flex-direction: row;
 	justify-content: left;
 	align-items: flex-end;
+	height: 22px;
+	margin-bottom: 62px;
 }
 
+.container_6 {
+    display: flex;
+	flex-direction: row;
+	justify-content: left;
+    color: white;
+    height: 340px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.card_60 {
+    display: flex;
+	flex-direction: column;
+	justify-content: left;
+	margin-right: 120px;
+}
+
+.card_61 {
+    display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin-right: 120px;
+	height: 90px;
+}
 
 .hr-line {
-    border: none;
-    height: 2px;
-    background-color: #e6e6e6;
+    border-top: 1px solid #e6e6e6;
     margin: 0px 110px 90px;
 }
+
+.hr-line_1 {
+    border-top: 1px solid #e6e6e6;
+    margin: 0px 0px 60px;
+
+}
+
 .card_1 img {
     width: 721px
     height: 474px
@@ -172,7 +202,7 @@
 
 @font-face {
   font-family: 'head';
-  src: url('../font\Libre Franklin\TenorSans.ttf') format('truetype');
+  src: url('../font\Tenor Sans\TenorSans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -185,48 +215,79 @@
 }
 
 @font-face {
-  font-family: 'bottom';
-  src: url('..font\Libre Franklin\LibreFranklin.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'bottom';
+    src: url('../font\Libre Franklin\LibreFranklin.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 .text-top {
-  font-family: 'top', serif;
-  font-weight: 400;
-  font-size: 12px;
-  font-style: regular;
-  margin-bottom: 18px
+    font-family: 'top', serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 18px
 }
 
 .text-head {
-  font-family: 'head', serif;
-  font-weight: 400;
-  font-size: 36px;
-  font-style: regular;
-  margin-bottom: 27px
+    font-family: 'head', serif;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    margin-bottom: 27px
 }
 
 .text-parag {
-  font-family: 'parag', serif;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: regular;
-  margin-bottom: 28px
+    font-family: 'parag', serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 28px
 }
 
 .text-bottom {
-  font-family: 'bottom', serif;
-  font-weight: 700;
-  font-size: 10px;
-  font-style: bold;
+    font-family: 'bottom', serif;
+    font-weight: 700;
+    font-size: 10px;
+    font-style: normal;
 }
 .text-bottom_2 {
-  font-family: 'bottom', serif;
-  font-weight: 400;
-  font-size: 10px;
-  font-style: regular;
-  margin: 0px 120px;
+    font-family: 'bottom', serif;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+    margin: 0px 120px;
+}
+
+.text-level_1 {
+    font-family: 'top', serif;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+    color: #666666;
+    margin-bottom: 0px;
+}
+
+.card_60 .text-level_1 {
+    margin-bottom: 20px;
+}
+
+.mb-3 .text-level_1 {
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+
+.text-level_2 {
+    font-family: 'top', serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.spacing {
+    margin-bottom: 70px;
 }
 
 footer .text-bottom_2 {
@@ -241,7 +302,7 @@ footer .text-bottom_2 {
   font-family: 'head', serif;
   font-weight: 400;
   font-size: 19px;
-  font-style: regular;
+  font-style: normal;
   margin-bottom: 27px
 }
 .buttom {
@@ -256,4 +317,5 @@ footer .text-bottom_2 {
 .resize {
     width: 135px;
     height: 17px;
+    margin-right: 15px;
 }
